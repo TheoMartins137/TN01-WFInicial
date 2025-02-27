@@ -1,6 +1,6 @@
 ﻿namespace WFInicial
 {
-    partial class Form1
+    partial class FormEx001
     {
         /// <summary>
         ///  Required designer variable.
@@ -84,7 +84,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(521, 260);
             Controls.Add(txt_nota2);
             Controls.Add(lbl_nota2);
             Controls.Add(btn_calcular);
