@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CREx003", "CREx003\CREx003.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CREx004", "CREx004\CREx004.csproj", "{5818F9C2-BFF4-4A2E-AC0E-2B2F6D46A118}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CREx005", "CREx005\CREx005.csproj", "{3A15D13D-94C1-491D-87EC-C39B21A15129}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5818F9C2-BFF4-4A2E-AC0E-2B2F6D46A118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5818F9C2-BFF4-4A2E-AC0E-2B2F6D46A118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5818F9C2-BFF4-4A2E-AC0E-2B2F6D46A118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
