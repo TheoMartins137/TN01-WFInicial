@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFInicial", "WFInicial\WFIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CREx001", "CRevisao\CREx001.csproj", "{DE02D67D-6C15-4CB3-9D28-16C2845FCED2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CREx002", "CREx002\CREx002.csproj", "{79C6AD75-4686-4773-97E8-381E51739A0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DE02D67D-6C15-4CB3-9D28-16C2845FCED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE02D67D-6C15-4CB3-9D28-16C2845FCED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE02D67D-6C15-4CB3-9D28-16C2845FCED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C6AD75-4686-4773-97E8-381E51739A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C6AD75-4686-4773-97E8-381E51739A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C6AD75-4686-4773-97E8-381E51739A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C6AD75-4686-4773-97E8-381E51739A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
