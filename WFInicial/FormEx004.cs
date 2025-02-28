@@ -16,5 +16,33 @@ namespace WFInicial
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormEx004_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_confirm_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(txt_num1.Text);
+            int num2 = Convert.ToInt32(txt_num2.Text);
+            int num3 = Convert.ToInt32(txt_num3.Text);
+
+            int maior = Math.Max(num3, Math.Max(num1, num2));
+
+            MessageBox.Show($"O maior número é: {maior}", "Maior", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+
+        }
     }
 }
