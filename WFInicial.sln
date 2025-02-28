@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CREx004", "CREx004\CREx004.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CREx005", "CREx005\CREx005.csproj", "{3A15D13D-94C1-491D-87EC-C39B21A15129}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CREx006", "CREx006\CREx006.csproj", "{21BE413A-2895-4B52-8C19-12ADD7D3AC65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A15D13D-94C1-491D-87EC-C39B21A15129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BE413A-2895-4B52-8C19-12ADD7D3AC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BE413A-2895-4B52-8C19-12ADD7D3AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BE413A-2895-4B52-8C19-12ADD7D3AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BE413A-2895-4B52-8C19-12ADD7D3AC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

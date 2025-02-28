@@ -30,7 +30,7 @@ namespace WFInicial
 
             double valor_final = valor * hora;
 
-            MessageBox.Show($"Recebendo {valor} e tendo trabalhado por {hora}, a renda de {nome} foi de: R${valor_final}", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information );
+            MessageBox.Show($"Recebendo {valor} e tendo trabalhado por {hora}, a renda de {nome} foi de: R${valor_final:F2}", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information );
         }
     }
 }
