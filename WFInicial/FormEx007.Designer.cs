@@ -37,55 +37,64 @@
             // 
             // btn_confirm
             // 
-            btn_confirm.Location = new Point(123, 113);
+            btn_confirm.Location = new Point(141, 151);
+            btn_confirm.Margin = new Padding(3, 4, 3, 4);
             btn_confirm.Name = "btn_confirm";
-            btn_confirm.Size = new Size(100, 23);
+            btn_confirm.Size = new Size(114, 31);
             btn_confirm.TabIndex = 0;
             btn_confirm.Text = "confirmar";
             btn_confirm.UseVisualStyleBackColor = true;
+            btn_confirm.Click += btn_confirm_Click;
             // 
             // lbl_nome
             // 
             lbl_nome.AutoSize = true;
-            lbl_nome.Location = new Point(56, 44);
+            lbl_nome.Location = new Point(64, 59);
             lbl_nome.Name = "lbl_nome";
-            lbl_nome.Size = new Size(50, 15);
+            lbl_nome.Size = new Size(62, 20);
             lbl_nome.TabIndex = 1;
             lbl_nome.Text = "Produto";
             // 
             // txt_nome
             // 
-            txt_nome.Location = new Point(123, 74);
+            txt_nome.Location = new Point(141, 99);
+            txt_nome.Margin = new Padding(3, 4, 3, 4);
+            txt_nome.Multiline = true;
             txt_nome.Name = "txt_nome";
-            txt_nome.Size = new Size(100, 23);
+            txt_nome.Size = new Size(114, 27);
             txt_nome.TabIndex = 2;
+            txt_nome.TextChanged += txt_nome_TextChanged;
             // 
             // txt_valor
             // 
-            txt_valor.Location = new Point(123, 41);
+            txt_valor.Location = new Point(141, 55);
+            txt_valor.Margin = new Padding(3, 4, 3, 4);
+            txt_valor.Multiline = true;
             txt_valor.Name = "txt_valor";
-            txt_valor.Size = new Size(100, 23);
+            txt_valor.Size = new Size(114, 27);
             txt_valor.TabIndex = 3;
+            txt_valor.TextChanged += txt_valor_TextChanged;
             // 
             // lbl_valor
             // 
             lbl_valor.AutoSize = true;
-            lbl_valor.Location = new Point(56, 77);
+            lbl_valor.Location = new Point(64, 103);
             lbl_valor.Name = "lbl_valor";
-            lbl_valor.Size = new Size(33, 15);
+            lbl_valor.Size = new Size(43, 20);
             lbl_valor.TabIndex = 4;
             lbl_valor.Text = "Valor";
             // 
             // FormEx007
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(321, 273);
+            ClientSize = new Size(367, 364);
             Controls.Add(lbl_valor);
             Controls.Add(txt_valor);
             Controls.Add(txt_nome);
             Controls.Add(lbl_nome);
             Controls.Add(btn_confirm);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormEx007";
             Text = "FormEx007";
             ResumeLayout(false);

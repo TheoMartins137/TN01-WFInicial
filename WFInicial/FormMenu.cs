@@ -55,8 +55,8 @@ namespace WFInicial
 
         private void btn_ex7_Click(object sender, EventArgs e)
         {
-           // FormEx007 formEx07 = new FormEx007();
-          //  formEx07.ShowDialog();
+            FormEx007 formEx07 = new FormEx007();
+            formEx07.ShowDialog();
         }
     }
 }
