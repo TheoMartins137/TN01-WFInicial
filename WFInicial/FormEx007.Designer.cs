@@ -30,8 +30,8 @@
         {
             btn_confirm = new Button();
             lbl_nome = new Label();
-            txt_nome = new TextBox();
             txt_valor = new TextBox();
+            txt_nome = new TextBox();
             lbl_valor = new Label();
             SuspendLayout();
             // 
@@ -43,6 +43,7 @@
             btn_confirm.TabIndex = 0;
             btn_confirm.Text = "confirmar";
             btn_confirm.UseVisualStyleBackColor = true;
+            btn_confirm.Click += btn_confirm_Click;
             // 
             // lbl_nome
             // 
@@ -53,19 +54,19 @@
             lbl_nome.TabIndex = 1;
             lbl_nome.Text = "Produto";
             // 
-            // txt_nome
-            // 
-            txt_nome.Location = new Point(123, 74);
-            txt_nome.Name = "txt_nome";
-            txt_nome.Size = new Size(100, 23);
-            txt_nome.TabIndex = 2;
-            // 
             // txt_valor
             // 
-            txt_valor.Location = new Point(123, 41);
+            txt_valor.Location = new Point(123, 74);
             txt_valor.Name = "txt_valor";
             txt_valor.Size = new Size(100, 23);
-            txt_valor.TabIndex = 3;
+            txt_valor.TabIndex = 2;
+            // 
+            // txt_nome
+            // 
+            txt_nome.Location = new Point(123, 41);
+            txt_nome.Name = "txt_nome";
+            txt_nome.Size = new Size(100, 23);
+            txt_nome.TabIndex = 3;
             // 
             // lbl_valor
             // 
@@ -82,8 +83,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(321, 273);
             Controls.Add(lbl_valor);
-            Controls.Add(txt_valor);
             Controls.Add(txt_nome);
+            Controls.Add(txt_valor);
             Controls.Add(lbl_nome);
             Controls.Add(btn_confirm);
             Name = "FormEx007";
@@ -96,8 +97,8 @@
 
         private Button btn_confirm;
         private Label lbl_nome;
-        private TextBox txt_nome;
         private TextBox txt_valor;
+        private TextBox txt_nome;
         private Label lbl_valor;
     }
 }
