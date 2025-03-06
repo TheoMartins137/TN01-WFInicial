@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WFInicial
 {
-    public partial class FormsEX007 : Form
+    public partial class FormEx008: Form
     {
-        public FormsEX007()
+        public FormEx008()
         {
             InitializeComponent();
-        }
-
-        private void btn_confirm_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
