@@ -133,6 +133,7 @@
             rdb_sub.TabStop = true;
             rdb_sub.Text = "Subtração";
             rdb_sub.UseVisualStyleBackColor = true;
+            rdb_sub.CheckedChanged += rdb_sub_CheckedChanged;
             // 
             // rdb_div
             // 

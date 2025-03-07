@@ -72,12 +72,17 @@ namespace WFInicial
                 {
                     resultado = Math.Pow(numero1, (1 / numero2));
                 }
-                 MessageBox.Show($"A raiz de {numero1} sob {1/numero2} = {resultado:F2}", "RAIZ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"A raiz de {numero1} sob {1 / numero2} = {resultado:F2}", "RAIZ", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 MessageBox.Show($"Escolha uma operação", "ATENÇÂO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
+        }
+
+        private void rdb_sub_CheckedChanged(object sender, EventArgs e)
+        {
 
         }
     }
