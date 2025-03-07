@@ -37,6 +37,7 @@
             btn_ex7 = new Button();
             btn_ex8 = new Button();
             btn_ex9 = new Button();
+            btn_ex10 = new Button();
             SuspendLayout();
             // 
             // btn_ex1
@@ -129,11 +130,22 @@
             btn_ex9.UseVisualStyleBackColor = true;
             btn_ex9.Click += btn_ex9_Click;
             // 
+            // btn_ex10
+            // 
+            btn_ex10.Location = new Point(150, 140);
+            btn_ex10.Name = "btn_ex10";
+            btn_ex10.Size = new Size(75, 23);
+            btn_ex10.TabIndex = 9;
+            btn_ex10.Text = "EX10";
+            btn_ex10.UseVisualStyleBackColor = true;
+            btn_ex10.Click += btn_ex10_Click;
+            // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(469, 175);
+            Controls.Add(btn_ex10);
             Controls.Add(btn_ex9);
             Controls.Add(btn_ex8);
             Controls.Add(btn_ex7);
@@ -159,5 +171,6 @@
         private Button btn_ex7;
         private Button btn_ex8;
         private Button btn_ex9;
+        private Button btn_ex10;
     }
 }
